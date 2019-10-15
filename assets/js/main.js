@@ -260,3 +260,12 @@
 			});
 
 })(jQuery);
+
+function expandTable(elem) {
+	let currWhiteSpace = elem.style.whiteSpace;
+	if (currWhiteSpace === "normal" || currWhiteSpace === "initial") {
+		elem.style.whiteSpace = "nowrap";
+	} else {
+		elem.style.whiteSpace = "normal";
+	}
+}
