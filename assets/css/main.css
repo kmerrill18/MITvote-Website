@@ -2627,6 +2627,32 @@ input, select, textarea {
 			opacity: 0.25;
 		}
 
+		.button.accordian {
+			width: 60%;
+			background-color: #8300fd;
+			box-shadow: none;
+			color: #ffffff !important;
+			border-radius: 0;
+			text-align: left;
+			white-space: normal;
+			font-size: 1em;
+		}
+			button.accordian:after {
+				content: '\02795';
+				font-size: inherit;
+				float: right;
+				color: white;
+				margin-left: 5px;
+			}
+
+			button.accordian.active:after {
+				content: "\02796";
+				float: right;
+				color: white;
+			}
+
+
+
 /* Mini Posts */
 
 	.mini-posts article {
@@ -3637,3 +3663,32 @@ input, select, textarea {
 			margin-top: 0;
 			padding-top: 0;
 		}
+
+/* Collapsible - Kelsey made this */
+.expand-header {
+	font-size: 1.25em;
+	color: #3d4449;
+	font-family: "Roboto Slab", serif;
+	font-weight: 700;
+	line-height: 1.5;
+	margin: 0 0 1em 0;
+}
+	.expand-header:hover{
+		color: #8300fd;
+		cursor: pointer;
+	}
+
+.expand-names {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+.expand-answer {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  width: 60%;
+}

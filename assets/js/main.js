@@ -269,3 +269,18 @@ function expandTable(elem) {
 		elem.style.whiteSpace = "normal";
 	}
 }
+
+function expandAccordian(elem) {	
+	if (elem.className.includes("active")) {
+		elem.className = elem.className.slice(0, elem.className.length-7);
+	} else {
+		elem.className += " active";
+	}
+
+	let content = elem.nextElementSibling;
+	if (content.style.display === "block") {
+		content.style.display = "none";
+	} else {
+		content.style.display = "block";
+	}
+}
