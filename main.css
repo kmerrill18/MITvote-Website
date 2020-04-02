@@ -1,0 +1,334 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
+@import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');/*the beautiful blue is #78c9ff*/
+
+* {
+	outline: none;
+}
+
+html {
+	background-color: #e5e6ec;
+/*	height: 100%;
+*/}
+
+ol {
+	padding-right: 10px;
+	padding-left: none;
+	font-weight: 600;
+}
+
+i {
+	font-style: italic;
+}
+
+s {
+	text-decoration: line-through;
+}
+
+a {
+	color: #6100b9;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+a:hover {
+	color: #c70095;
+}
+
+a:visited {
+	color: #4b008f;
+}
+
+a:visited:hover {
+	color: #9c0075;
+}
+
+b {
+	font-weight: 600;
+}
+
+body {
+  font-family: 'Varela Round', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  margin: 0;
+  background-color: none;
+}
+
+/*div.text-box {
+	max-width: 550px;
+	padding-left: 30px;
+	padding-right: 30px;
+}*/
+
+div.card-thing {
+	width: 100%-10px;
+	background-color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+div.text-box.left {
+	text-align: left;
+}
+
+div.text-box.right {
+	text-align: right;
+}
+
+div.text-box.small {
+	width: 50%;
+	max-width: 600px;
+	margin: auto;
+}
+
+.center {
+	text-align: center;
+	display: flex;
+}
+
+img.logo {
+	margin-top: 10px;
+	min-width: 75px;
+	width: 50%;
+	max-width: 200px;
+}
+
+img.contact-icon {
+	height: 20px;
+	padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+	h3 {
+		font-size: 12px;
+		font-weight: 400;
+	}
+
+	p, ul, ol {
+  		line-height: 1.4;
+  		font-size: 14px;
+	}
+
+/*	.topnav div {
+		padding: 20px 10px 20px 10px;
+	}*/
+}
+
+@media only screen and (min-width: 600px) {
+	h3 {
+		font-size: 14px;
+		font-weight: 400;
+	}
+
+	p, ul, ol {
+  		line-height: 1.4;
+  		font-size: 16px;
+	}
+
+/*	.topnav div {
+		padding: 20px 10px 20px 10px;
+	}*/
+}
+
+@media only screen and (min-width: 1200px) {
+	h3 {
+		font-size: 14px;
+		font-weight: 400;
+	}
+
+	p, ul, ol {
+  		line-height: 1.4;
+  		font-size: 16px;
+	}
+/*
+	.topnav div {
+		padding: 10px;
+	}*/
+}
+
+h1, h2, h3, a, p, button {
+	font-family: 'Varela Round', sans-serif;
+}
+
+h2 {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.topnav {
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	background-color: #6100b9;
+}
+
+.topnav a {
+/*	float: left;
+/*	text-align: center;
+*/	text-decoration: none;
+	font-weight: 400;
+	color: inherit;
+}
+
+.topnav a:hover {
+	color: inherit;
+}
+
+.topnav div {
+	border-style: solid;
+	border-color: #6100b9;
+	border-width: 0 4px 0 0;
+	padding: 0px 10px 0px 10px;
+}
+
+.topnav div.active {
+	background-color: white;
+	color: black;
+}
+
+.main-section {
+	padding-top: 10px;
+	padding-bottom: 20px;
+	text-align: center;
+	display: inline-block;
+}
+
+.footer {
+	background-color: #e5e6ec;
+	padding: 50px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.highlight {
+	color: white;
+	background-color: #8400fd;
+	border-left-style: solid;
+	border-left-width: 5px;
+	border-left-color: #6100b9;
+	padding: 8px;
+}
+
+.color {
+	color: white;
+}
+
+.color:hover {
+	color: white;
+}
+
+.color.one {
+	background-color: #8400fd;
+}
+
+.color.one:hover {
+	background-color: #70a0ea;
+}
+
+.color.two {
+	background-color: #70a0ea;
+}
+
+.color.three {
+	background-color: #e6e5d9;
+}
+
+.color.four {
+	background-color: #535170;
+}
+
+.color.five {
+	background-color: #263756;
+}
+
+/*.pink {
+	color: white;
+	background-color: #fd00be;
+}
+
+.colorpink {
+	color: #fd00be;
+}
+
+.pink.link:hover {
+	color: white;
+	background-color: #c70095;
+}
+
+.purple {
+	color: white;
+	background-color: #8400fd;
+}
+
+.colorpurple {
+	color: #8400fd;
+}
+
+.purple.link:hover {
+	color: white;
+	background-color: #6100b9;
+}
+
+.green {
+	color: black;
+	background-color: #b9f500;
+}
+
+.colorgreen {
+	color: #b9f500;
+}
+
+.green.link:hover {
+	color: white;
+	background-color: #98ca00;
+}
+
+.yellow {
+	color: black;
+	background-color: #fff200;
+}
+
+.coloryellow {
+	color: #fff200;
+}
+
+.yellow.link:hover {
+	color: white;
+	background-color: #d4c900;
+}*/
+
+section {
+	padding: 0px 10% 0px 10%;
+	display: inline-block;
+}
+
+button {
+	padding: 15px;
+	border-radius: 15px;
+	font-size: 14px;
+	border: none;
+	cursor: pointer;
+}
+
+button a {
+	text-decoration: none;
+}
+
+button.flatboi {
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+img.bodyimage {
+	width: 60%;
+/*	max-width: 500px;
+	min-width: 200px;*/
+	margin-top: 5px;
+	max-width: 800px;
+}
+
+.imagespan {
+	display: flex;
+	justify-content: center;
+	background-color: #e5e6ec;
+}
