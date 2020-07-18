@@ -150,7 +150,30 @@ h1, h2, h3, a, p, button {
 	font-family: 'Varela Round', sans-serif;
 }
 
+h1 {
+	font-size: 28px;
+	font-weight: 600;
+}
+
 h2 {
+	font-size: 24px;
+	font-weight: 600;
+	padding-top: 12px;
+}
+
+h2:after {
+	content:' ';
+    display:block;
+    border:1px solid #8400fd;
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+    -webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+    -moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+h4 {
 	font-size: 18px;
 	font-weight: 600;
 }
