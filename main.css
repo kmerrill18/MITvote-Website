@@ -342,6 +342,13 @@ button.flatboi {
 	width: 100%;
 }
 
+button.flatboi-two {
+	margin-bottom: 10px;
+	width: 49%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
 img.bodyimage {
 	width: 60%;
 /*	max-width: 500px;
