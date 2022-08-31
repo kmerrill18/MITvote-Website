@@ -4,7 +4,7 @@ all the files for the MITvote website
 ### To make changes live:
 Through git (preferred):
 1. Push to the git repo on your local computer
-2. Pull the git repo on the athena locker
+2. Pull the git repo on the athena locker (/afs/athena.mit.edu/org/m/mitvote/www)
 3. Yay! Now they are live!
 
 Manual:
